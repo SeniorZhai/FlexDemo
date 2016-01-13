@@ -12,10 +12,7 @@ var FlexDemo = React.createClass({
   render: function() {
     return (
       <View style={styles.container}>
-        <Text style={styles.welcome}>
-
-        </Text>
-
+        <View style={styles.item}></View>
       </View>
     );
   }
@@ -26,11 +23,11 @@ var styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#F5FCFF',
+    backgroundColor: '#CCD1D9',
   },
   item: {
     flex: 1,
-    backgroundColor:
+    backgroundColor: '#48CFAD'
   }
 });
 
