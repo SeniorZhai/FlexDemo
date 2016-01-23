@@ -1,12 +1,18 @@
-'use strict';
+/**
+ * Created by zhai on 16/1/24.
+ */
+/**
+ * Created by zhai on 16/1/24.
+ */
+
+'use strict'
 
 var React = require('react-native');
 var {
     StyleSheet,
     View,
     Text,
-    ScrollView,
-    AppRegistry,
+    ScrollView
     } = React;
 
 var Example = React.createClass({
@@ -190,4 +196,4 @@ var styles = StyleSheet.create({
     }
 });
 
-AppRegistry.registerComponent('FlexDemo', () => Example);
+exports.module = Example;
